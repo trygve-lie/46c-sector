@@ -1,5 +1,5 @@
 {
-  "name": "@46c/sector",
+  "name": "46c-sector",
   "version": "1.0.0",
   "description": "Web app to integrate Sector with SmartHouse controller",
   "repository": {
