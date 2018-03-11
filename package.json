@@ -1,6 +1,6 @@
 {
   "name": "46c-sector",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "Web app to integrate Sector with SmartHouse controller",
   "repository": {
     "type": "git",
@@ -16,6 +16,10 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
+  "bin": {
+    "46c-sector": "./bin/run.js"
+  },
+  "main": "./lib/server.js",
   "license": "MIT",
   "dependencies": {
     "convict": "^4.0.2",
